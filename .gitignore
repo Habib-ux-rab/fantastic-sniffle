@@ -1,23 +1,86 @@
 ### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Template for AL projects for Dynamics 365 Business Central
+
+# VS Code settings
 .vscode/
-#Cache folder
+
+# AL cache and generated files
 .alcache/
-#Symbols folder
 .alpackages/
-#Snapshots folder
 .snapshots/
-#Testing Output folder
 .output/
-#Extension App-file
+
+# Extension app file
 *.app
-#Rapid Application Development File
+
+# Rapid Application Development file
 rad.json
-#Translation Base-file
+
+# Translation base file
 *.g.xlf
-#License-files
+
+# License files
 *.bclicense
 *.flf
-#Test results file
+
+# Test results
 TestResults.xml
+
+
+### Node.js ###
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime logs
+logs/
+*.log
+
+
+### Environment files ###
+# Local environment configuration
+.env
+.env.local
+.env.*.local
+
+
+### GitHub ###
+# GitHub Copilot settings
+.github/copilot-instructions.md
+
+# Local GitHub CLI configuration
+.gh/
+
+
+### Operating system ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
